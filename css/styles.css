@@ -1,0 +1,17 @@
+:root {
+    --main-text-color: #757575;
+    --secondary-text-color: #212121;
+    --accent-color: #2196F3;
+    --secondary-accent-color: #FFFFFF; 
+    --adress-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+    font-family: ;
+}
+
+.list {
+    list-style: none;
+}
+
+/* header */
