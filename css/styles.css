@@ -1,6 +1,6 @@
 :root {
-  --main-text-color: #757575;
-  --secondary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --main-text-color: #212121;
   --accent-color: #2196f3;
   --secondary-accent-color: #ffffff;
   --adress-color: rgba(255, 255, 255, 0.6);
@@ -8,6 +8,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  color: var(--main-text-color);
 }
 
 .link {
@@ -19,8 +20,8 @@ body {
 }
 
 .hidden {
-    position: fixed;
-    transform: scale(0);
+  position: fixed;
+  transform: scale(0);
 }
 
 /* header */
@@ -35,7 +36,7 @@ body {
 }
 
 .additional-logo-color {
-  color: var(--secondary-text-color);
+  color: var(--main-text-color);
 }
 
 .navigation-list-link {
@@ -43,49 +44,48 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  color: var(--secondary-text-color);
 }
 
 .navigation-list-link:hover,
 .navigation-list-link:focus {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .header-contacts-list-link {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--main-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
 }
 
 .header-contacts-list-link:hover,
 .header-contacts-list-link:focus {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
-/* edn-header */
+/* end-header */
 
 .hero {
-    background-color: #757575;
+  background-color: #757575;
 }
 /* hero */
 
 .hero-title {
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    color: var(--secondary-accent-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: var(--secondary-accent-color);
 }
 
 .hero-btn {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    color: var(--secondary-accent-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--secondary-accent-color);
+  cursor: pointer;
 }
 
 /* end-hero */
@@ -93,19 +93,15 @@ body {
 /* about-us */
 
 .about-us-title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .about-us-descr {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    color: var(--main-text-color);
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--secondary-text-color);
 }
 
 /* end-about-us */
@@ -113,11 +109,9 @@ body {
 /* our-work */
 
 .our-work-title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
 }
 
 /* end-our-work */
@@ -125,28 +119,21 @@ body {
 /* our-team */
 
 .our-team-title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
 }
 
 .our-team-list-name {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
-    color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
 }
 
 .our-team-list-descr {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.19;
-    color: var(--main-text-color);
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--secondary-text-color);
 }
 
 /* end-our-team */
@@ -154,33 +141,33 @@ body {
 /* footer */
 
 .footer {
-    background-color: brown;
+  background-color: brown;
 }
 
 .footer-logo {
-    color: var(--accent-color);
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
+  color: var(--accent-color);
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 .additional-footer-logo-color {
-    color: var(--secondary-accent-color);
+  color: var(--secondary-accent-color);
 }
 
 .footer-adress-list-link {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    color: var(--adress-color)
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--adress-color);
 }
 
 .footer-adress-list-link:hover,
 .footer-adress-list-link:focus {
-    color: var(--secondary-accent-color);
+  color: var(--secondary-accent-color);
 }
 
 /* end-footer */
